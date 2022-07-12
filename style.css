@@ -1,0 +1,130 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, rgb(94, 55, 45), rgb(20, 32, 87));
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+.logo{
+    font-weight: 700;
+    font-size: 20px;
+}
+.cta{
+    background-color: rgba(103, 26, 228, 1);
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: 20px;
+}
+.purple-text{
+    color: rgba(103, 26, 228, 1);
+}
+.title{
+    font-size: 40px;
+    font-weight: 900;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav .nav{
+    max-width: 1200px;
+    min-height: 10vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+#nav .nav .search p input{
+    width: 300px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+#nav .nav .search p img{
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+}
+
+#nav .nav .nav-link ul{
+    display: flex;
+}
+#nav .nav .nav-link ul li{
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 0 10px;
+}
+#main .main{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+#main .main .left{
+    width: 50%;
+    color: white;
+}
+#main .main .left .buttons{
+    display: inline-block;
+    margin: 20px 0;
+}
+#main .main .left .buttons .transparent-button{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: 20px;
+    margin-left: 10px;
+}
+#main .main .left .total{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+#main .main .left .total h1{
+    font-weight: 900;
+    font-size: 2em;
+}
+#main .main .right{
+    width: 50%;
+    display: flex;
+    gap: 10px;
+}
+#main .main .right img{
+    width: 100%;
+}
+#main .main .right .col-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#main .main .right .col-2 div:nth-child(2){
+    margin: 10px 0;
+}
+#main .main .right .col-3{
+    display: flex;
+    align-items: center;
+}
+#logo .logo{
+    max-width: 1200px;
+    min-height: 40vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#logo .logo > div img{
+    width: 80%;
+}
