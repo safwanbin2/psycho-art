@@ -8,6 +8,9 @@ a{
     text-decoration: none;
     color: white;
 }
+p{
+    color: rgba(255, 255, 255, 0.5);
+}
 li{
     list-style-type: none;
 }
@@ -20,12 +23,13 @@ li{
     border-radius: 5px;
     padding: 10px 15px;
     font-weight: 20px;
+    display: inline-block;
 }
 .purple-text{
     color: rgba(103, 26, 228, 1);
 }
 .title{
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: 900;
 }
 .container{
@@ -127,4 +131,78 @@ li{
 }
 #logo .logo > div img{
     width: 80%;
+}
+#logo .logo > div {
+    text-align: center;
+}
+#about-us .about-us{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+#about-us .about-us .top{
+    text-align: center;
+    margin-bottom: 3em;
+}
+#about-us .about-us .bottom{
+    display: flex;
+}
+#about-us .about-us .bottom .left, .right{
+    width: 50%;
+}
+#about-us .about-us .bottom img{
+    width: 80%;
+}
+#collection .collection{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+#collection .collection .top{
+    text-align: center;
+    margin-bottom: 2em;
+}
+#collection .collection .middle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#collection .collection .middle a{
+    display: inline-block;
+    padding: 7px 115px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+#collection .collection .middle a:nth-child(2){
+    background-color: rgba(103, 26, 228, 1);
+}
+#collection .collection .bottom{
+    margin-top: 2em;
+}
+#collection .collection .bottom > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card{
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.card > div > div{
+    display: flex;
+    justify-content: space-between;
+}
+.card .cta{
+    width: 90%;
+    text-align: center;
+}
+.card img{
+    width: 100%;
 }
