@@ -23,7 +23,6 @@ li{
     border-radius: 5px;
     padding: 10px 15px;
     font-weight: 20px;
-    display: inline-block;
 }
 .purple-text{
     color: rgba(103, 26, 228, 1);
@@ -202,6 +201,7 @@ li{
 .card .cta{
     width: 90%;
     text-align: center;
+    display: inline-block;
 }
 .card img{
     width: 100%;
