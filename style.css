@@ -233,6 +233,7 @@ li{
 }
 #creator .creator .bottom{
     display: flex;
+    justify-content: space-between;
 }
 #creator .creator .bottom .card{
     padding: 0;
@@ -248,4 +249,50 @@ li{
 }
 #creator .creator .bottom .card .face{
     width: 80px;
+}
+#faq .faq{
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#faq .faq .top{
+    text-align: center;
+}
+#faq .faq .bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.underline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    width: 35em;
+    margin: 5px;
+}
+.underline img{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-top: 15px;
+}
+#get-ready .get-ready{
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+#get-ready .get-ready .pink-box{
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(103, 26, 228, 1);
+    border-radius: 10px;
+    text-align: center;
+}
+#get-ready .get-ready .pink-box .cta{
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
 }
