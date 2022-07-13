@@ -206,3 +206,43 @@ li{
 .card img{
     width: 100%;
 }
+#art-work .art-work{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+#art-work .art-work .top{
+    text-align: center;
+    margin: 4em 0 2em;
+}
+#art-work .art-work .bottom{
+    display: flex;
+}
+#creator .creator{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#creator .creator .top{
+    text-align: center;
+    margin: 4em 0 2em;
+    color: white;
+}
+#creator .creator .bottom{
+    display: flex;
+}
+#creator .creator .bottom .card{
+    padding: 0;
+}
+#creator .creator .bottom .card .card-bottom{
+    padding: 15px;
+    color: white;
+    text-align: center;
+    margin-top: -3.7em;
+}
+#creator .creator .bottom .card .face{
+    width: 80px;
+}
